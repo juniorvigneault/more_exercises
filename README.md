@@ -1,2 +1,1 @@
-# coding_train
-coding train exercises
+# more_exercises
