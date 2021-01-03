@@ -1,7 +1,11 @@
 "use strict";
 
-function preload(){
-}
+// drawing exercise with bezier curves and vertex
+// created a "W" using illustrator to understand where the
+// handles of each points are on the grid (see image in assets)
+// made with tutorial : [code to type] bezier curves (typography + p5js)
+// https://www.youtube.com/watch?v=8-v8a5zJbu4&t=579s
+// exrecise by just junior
 
 function setup() {
   createCanvas(1000, 1000)
@@ -24,7 +28,4 @@ function setup() {
   bezierVertex(600, 500, 600, 700, 600, 700);
   bezierVertex(600, 700, 700, 400, 700, 200);
   endShape();
-}
-
-function draw() {
 }
