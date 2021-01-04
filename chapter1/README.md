@@ -1,3 +1,5 @@
-# Template p5 project
+Chapter 1 : Drawing
 
-This is the README file for the entire project. For more official projects you should write information here about the nature of the project, your name, any special explanations of how the project works, etc.
+In this first chapter, I will explore drawing in P5js using shapes, curves, Bezier vertex, points and more. 
+
+First Exercise : Created the letter "W" using Bezier Vertex (https://juniorvigneault.github.io/more_exercises/chapter1/)
