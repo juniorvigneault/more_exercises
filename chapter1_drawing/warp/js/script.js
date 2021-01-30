@@ -36,9 +36,11 @@ function draw(){
 }
 
   function drawWord(){
+   // let pt1 = mouseX;
+
     beginShape();
     vertex(x + 100, y + 200)
-    bezierVertex(x + 100, y + 400, x + 200, y + 700, x + 200, y + 700);
+    bezierVertex(x + mouseX, y + 400, x + 200, y + 700, x + 200, y + 700);
     bezierVertex(x + 200, y + 700, x + 200, y + 500, x + 300, y + 500);
     bezierVertex(x + 400, y + 500, x + 400, y + 700, x + 400, y + 700);
     bezierVertex(x + 400, y + 700, x + 500, y + 400, x + 500, y + 200);
